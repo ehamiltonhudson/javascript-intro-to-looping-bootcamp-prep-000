@@ -17,14 +17,14 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(array) {
-  var l = array.length
+  var i = array.length
   function incrementVariable() {
-  l = l - 1;
+  i = i - 1;
 }
 
 do {
   console.log("doo-bee-doo-bee-doo");
   incrementVariable();
-} while (l > -1);
+} while (i > 0);
 return array;
 }
