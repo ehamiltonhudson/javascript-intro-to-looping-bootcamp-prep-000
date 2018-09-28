@@ -23,8 +23,7 @@ function doWhileLoop(array) {
 }
 
 do {
-  console.log("doo-bee-doo-bee-doo");
-  incrementVariable();
+  array.length > 0 && incrementVariable()
 } while (i < 0);
 return array;
 }
