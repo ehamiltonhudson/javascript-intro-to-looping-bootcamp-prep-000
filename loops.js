@@ -18,12 +18,12 @@ function whileLoop(n) {
 
 function doWhileLoop(array) {
   function incrementVariable() {
-  i = i + 1;
+  i = i - 1;
 }
 
 do {
-  array.length > 0 &&
+  console.log("doo-bee-doo-bee-doo");
   incrementVariable();
-} while (l - 1);
+} while (i > 1);
 return array;
 }
